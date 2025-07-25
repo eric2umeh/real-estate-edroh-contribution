@@ -97,7 +97,7 @@ const ApplicationCard = ({
             <div>
               <Image
                 src="/landing-i1.png"
-                alt={contactPerson.name}
+                alt={`Profile image of ${contactPerson.name}`}
                 width={40}
                 height={40}
                 className="rounded-full mr-2 min-w-[40px] min-h-[40px]"
