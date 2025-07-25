@@ -63,7 +63,7 @@ const HeroSection = () => {
         transition={{ duration: 0.8 }}
         className="absolute top-1/3 transform -translate-x-1/2 -translate-y-1/2 text-center w-full"
       >
-        <div className="max-w-4xl mx-auto px-16 sm:px-12">
+        <div className="max-w-4xl mx-auto px-4 sm:px-8 md:px-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
             Start your journey to finding the perfect place to call home
           </h1>
