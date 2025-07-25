@@ -23,7 +23,7 @@ const ApplicationCard = ({
 
   return (
     <div className="border rounded-xl overflow-hidden shadow-sm bg-white mb-4">
-      <div className="flex flex-col lg:flex-row  items-start lg:items-center justify-between px-6 md:px-4 py-6 gap-6 lg:gap-4">
+      <div className="flex flex-col gap-6 px-4 py-6 sm:flex-col lg:flex-row lg:items-center lg:justify-between">
         {/* Property Info Section */}
         <div className="flex flex-col lg:flex-row gap-5 w-full lg:w-auto">
           <Image
