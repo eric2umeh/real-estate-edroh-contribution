@@ -41,7 +41,9 @@ const ApplicationCard = ({
                 {application.property.name}
               </h2>
               <div className="flex items-center mb-2">
-                <MapPin className="w-5 h-5 mr-1" />
+                <button aria-label="View Property on Map">
+                  <MapPin className="w-5 h-5 mr-1" />
+                </button>
                 <span>{`${application.property.location.city}, ${application.property.location.country}`}</span>
               </div>
             </div>
